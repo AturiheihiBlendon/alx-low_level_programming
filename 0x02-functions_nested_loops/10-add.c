@@ -4,6 +4,7 @@
  *
  * @i: integer argument
  * @j: integer argument
+ * Return: Sum
  */
 int add(int i, int j)
 {
