@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * print_to_98 - print numbers a to 98
- * @a: int argument
+ * @n: int argument
  */
 void print_to_98(int n)
 {
