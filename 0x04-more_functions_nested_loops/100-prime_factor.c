@@ -7,6 +7,7 @@
 int main(void)
 {
 	long int n, pf;
+
 	n = 612852475143;
 
 	for (pf = 2; n > 1; pf++)
