@@ -11,7 +11,7 @@ int main(void)
 
 	n = 612852475143;
 
-	for (pf = 2; n > 1; pf++)
+	for (pf = 2; n > 612852475143; pf++)
 	{
 		while (n % pf == 0)
 		{
