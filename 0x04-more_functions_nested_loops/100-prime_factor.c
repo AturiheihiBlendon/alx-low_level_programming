@@ -4,7 +4,7 @@
 *
 * Return: Always 0 (Success)
 */
-int main()
+int main(void)
 {
 	long int n, pf;
 	n = 612852475143;
