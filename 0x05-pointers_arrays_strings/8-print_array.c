@@ -6,7 +6,7 @@
  * followed by a new line.
  * @a: an input array
  * @n: an input integer
- * Return: Nothing
+ * Return: Nothing 
  */
 void print_array(int *a, int n)
 {
