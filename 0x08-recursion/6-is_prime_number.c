@@ -2,7 +2,7 @@
 
 /**
  * prime - Checks if a number is divisible.
- * @num: The number to be checked.
+ * @number: The number to be checked.
  * @divisor: The divisor.
  *
  * Return: 0 if the number is divisible
@@ -22,7 +22,7 @@ return (prime(number, divisor + 1));
  * @n: The number to be checked.
  *
  * Return: 0 if the integer is not prime
- *         1 if the number is prime 
+ *         1 if the number is primee
  */
 int is_prime_number(int n)
 {
