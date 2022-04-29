@@ -7,15 +7,15 @@
   */
 int Sqrt(int number, int sqrt_num)
 {
-	if (num == sqrt_num * sqrt_num)
+	if (number == sqrt_num * sqrt_num)
 	{
 		return (sqrt_num);
 	}
-	if (num / 2 == sqrt_num)
+	if (number / 2 == sqrt_num)
 	{
 		return (-1);
 	}
-	return (Sqrt(num, (sqrt_num + 1)));
+	return (Sqrt(number, (sqrt_num + 1)));
 }
 
 /**
