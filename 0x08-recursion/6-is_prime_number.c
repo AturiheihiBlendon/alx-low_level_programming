@@ -14,7 +14,7 @@ if (number % divisor == 0)
 return (0);
 if (divisor == number / 2)
 return (1);
-return (prime(number, div + 1));
+return (prime(number, divisor + 1));
 }
 
 /**
