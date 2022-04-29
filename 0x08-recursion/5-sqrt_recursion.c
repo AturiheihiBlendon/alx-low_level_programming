@@ -25,7 +25,7 @@ int Sqrt(int number, int sqrt_num)
   */
 int _sqrt_recursion(int n)
 {
-	int sqrt_num;
+	int sqrt_num = 0;
 
 	if (n < 0)
 	{
