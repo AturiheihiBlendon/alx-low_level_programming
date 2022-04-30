@@ -3,8 +3,7 @@
  * wildcmp - compares two strings.
  * @s1: string 1.
  * @s2: string 2. It can contain * as a special character.
- * Return: 0 if not identical
-           1 if identical
+ * Return: 0 if not identical, 1 if identical
  */
 int wildcmp(char *s1, char *s2)
 {
