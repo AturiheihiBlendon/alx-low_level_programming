@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stdio.h>
 /**
   * init_dog - initilazes a variable d of struct dog
   *@d: variable of struct dog
