@@ -22,9 +22,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 	else
 	{
+		free(my_dog->name);
+		free(my_dog->owner);
+		free(my_dog);
 		my_dog->name = name;
 		my_dog->age = age;
 		my_dog->owner = owner;
-		return (my_dog);
 	}
+	return (my_dog);
 }
